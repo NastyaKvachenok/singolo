@@ -82,3 +82,19 @@ ul li a:hover {
 
 /*STYLES FOR SLIDER*/
 
+.slider {
+  background-color: #f06c64;
+  border-bottom: 15px solid #ea676b;
+}
+
+.iphone-vertical {
+  padding-top: 53px;
+  padding-right: 72px;
+  padding-bottom: 58px;
+  padding-left: 71px;
+}
+
+.iphone-horizontal {
+  padding-top: 173px;
+  padding-bottom: 180px;
+}
