@@ -110,4 +110,74 @@ ul li a:hover {
 }
 
 
+/*STYLES FOR OUR SERVICES*/
 
+.our-services {
+  background-color:  #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+}
+
+.annotation {
+  margin-top: 68px;
+  margin-bottom: 22px;
+}
+
+.annotation h2 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 18px;
+  color: #666d89;
+}
+
+.annotation p {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  padding-top: 2px;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: 320px 320px 300px;
+  grid-template-rows: 123px 123px;
+}
+.service {
+  display: flex;
+  align-items: center;
+}
+
+.service img {
+  align-self:start;
+  padding-top: 25px;
+  padding-left: 1px;
+}
+
+.service-text {
+  padding-left: 20px;
+  padding-right: 10px;
+}
+
+.service-text h3 {
+  font-family: "Lato";
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  padding-top: 14px;
+  margin-bottom: 0px;
+}
+
+.service-text  p {
+  width: 220px;
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #767e9e;
+  text-align: justify;						 
+	text-align-last: left;   
+  margin-top: 10px;
+}
