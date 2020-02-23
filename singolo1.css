@@ -109,6 +109,11 @@ ul li a:hover {
   padding: 281px 0px 286px 0px;
 }
 
+.chev-right:hover, .chev-left:hover {
+  cursor: pointer;
+  filter: saturate(0);
+  }
+
 
 /*STYLES FOR OUR SERVICES*/
 
