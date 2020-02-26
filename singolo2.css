@@ -1,0 +1,17 @@
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 92.15686%;
+  height: auto;
+  padding-right: 3.9216%;
+  padding-left: 3.9216%;
+}
+
+.portfolio {
+  background-color: #2d303a;
+  border-bottom: 6px solid #323746;
+}
