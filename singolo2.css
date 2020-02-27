@@ -38,5 +38,30 @@
   color: #767e9e;
 }
 
+.portfolio-menu {
+  list-style-type: none;
+  display: flex;
+  width: 287px;
+  justify-content: space-between;
+  padding-left: 0px;
+}
 
+.portfolio-menu li {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.portfolio-menu li a {
+  color: #dedede;
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #666d89;
+  border-radius: 5px;
+}
+
+.portfolio-menu li a:hover {
+ opacity: 0.5;
+}
  
