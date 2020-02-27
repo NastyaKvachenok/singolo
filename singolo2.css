@@ -1,3 +1,7 @@
+* {
+  font-family: "Lato";
+}
+
 .wrapper {
   width: 100%;
   max-width: 1020px;
@@ -11,7 +15,28 @@
   padding-left: 3.9216%;
 }
 
+/*STYLES FOR PORTFOLIO BLOCK*/
+
 .portfolio {
   background-color: #2d303a;
+  background-size: cover;
   border-bottom: 6px solid #323746;
 }
+
+.portfolio h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 30px;
+  color: #666d89;
+  margin: 0;
+}
+
+.portfolio p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+}
+
+
+ 
