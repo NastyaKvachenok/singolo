@@ -64,4 +64,12 @@
 .portfolio-menu li a:hover {
  opacity: 0.5;
 }
+
+.portfolio-images {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 601px;
+  gap: 20px;
+  overflow: hidden;
+}
  
