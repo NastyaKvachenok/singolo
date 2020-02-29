@@ -56,7 +56,7 @@
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
-  margin: 0px;git status
+  margin: 0px;
 }
 
 .portfolio-menu li {
@@ -86,4 +86,43 @@
   gap: 20px;
   overflow: hidden;
 }
+
+/*STYLES FOR ABOUT US*/
+
+.about-us {
+  background-color: #f2f2f2;
+  background-size: cover;
+  border-bottom: 6px solid #ffffff;
+  padding-top: 66px;
+  padding-bottom: 73px;
+}
+
+.about-us h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 23px;
+  color: #666d89;
+  margin: 0px;
+  margin-bottom: 24.50px;
+}
+
+.about-us p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767e9e;
+  margin: 0px;
+  margin-bottom: 40.50px;
+}
+
+.personalities {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  height: 443px;
+}
+
+
+
+
  
