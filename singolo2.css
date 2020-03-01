@@ -112,17 +112,56 @@
   line-height: 30px;
   color: #767e9e;
   margin: 0px;
-  margin-bottom: 40.50px;
+  margin-bottom: 44.50px;
 }
 
 .personalities {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
   height: 443px;
 }
 
+.person:nth-child(3n) {
+  margin-left: 3px;
+}
 
+
+.personal-information {
+  margin-top: 14px;
+  margin-bottom: 24px;
+}
+
+
+.personal-information h3 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #666d89;
+  white-space: nowrap;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.personal-information p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 21px;
+  color: #767e9e;
+  margin-bottom: 24px;
+  letter-spacing: -0.07px;
+}
+
+.personal-social-links {
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+}
+
+ 
+.personal-social-links img:hover {
+  opacity: 0.5;
+  }
 
 
  
