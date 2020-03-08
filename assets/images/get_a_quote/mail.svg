@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 8" width="13" height="8">
+	<defs>
+		<image width="13" height="8" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAIBAMAAADQCGj8AAAAAXNSR0IB2cksfwAAABVQTFRF79fZ79fZ79fZ79fZ79fZ79fZ79fZp9vvuQAAAAd0Uk5T7/8QgCC/QOQ9A9QAAAAsSURBVHicY2AUBAEGBmUQg1mBgdmZUZDZmYEBSAQ7MwowAAWTGQVBNAhg0ACPZAR55ktNEgAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="mail" href="#img1" x="0" y="0" />
+</svg>

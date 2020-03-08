@@ -1,0 +1,148 @@
+* {
+  font-family: "Lato";
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1020px;
+  margin: 0 auto;
+}
+
+.container {
+  width: 92.15686%;
+  height: auto;
+  padding-right: 3.9216%;
+  padding-left: 3.9216%;
+}
+
+/*STYLES FOR GET A QUOTE*/
+
+.get-a-quote {
+  background-color: #f06c64;
+  background-size: cover;
+  padding-top: 66px;
+  padding-bottom: 67px;
+  border-bottom: 6px solid #ea676b;
+}
+
+.get-a-quote h2 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 22px;
+  color: #f0d8d9;
+  margin: 0px;
+  margin-bottom: 24px;
+}
+
+.get-a-quote p {
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #f0d8d9;
+  margin-bottom: 45px;
+}
+
+
+form {
+  width: 619px;
+  height: 364px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+input,
+textarea {
+  background-color: #d6564f;
+  border: none;
+  border-radius: 5px;
+  padding: 0px;
+  padding-left: 15px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+}
+
+input {
+  margin-bottom: 16px;
+  padding-top: 7.5px;
+  padding-bottom: 8.5px;
+}
+
+
+textarea {
+  resize: none;
+  padding-top: 6.5px;
+  height: 202px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #f48c8f;
+}
+
+
+.form-and-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-information {
+  width: 321px;
+  padding-top: 3px;
+  padding-left: 21px;
+}
+
+.contact-information h3 {
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 18px;
+  color: #f0d8d9;
+  margin: 0px;
+}
+
+.contact-information p,
+.contact a  {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #f0d8d9;
+}
+
+.contact a {
+  text-decoration: none;
+}
+
+/*STYLES FOR FOOTER*/
+
+footer {
+  background-color: #2d303a;
+  background-size: cover;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+.copyright-and-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 6px;
+  color: #666d89;
+}
+
+.personal-social-links {
+  width: 152px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-social-links img:hover {
+  opacity: 0.5;
+  }
+
+
+
